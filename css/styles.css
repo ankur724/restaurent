@@ -1,0 +1,315 @@
+*{margin: 0;
+padding: 0;}
+
+/*RESERVATION PAGE CSS */
+
+body{font-family: 'Architects Daughter', cursive;}
+
+.page{width: 100%;
+height: auto;
+}
+#header2{
+background-color:white; color: whitesmoke;height: 160px;
+width:15%;background-image: url(../images/r8.jpeg);float: left;background-size:contain;background-repeat: no-repeat;background-position: center;font-family: 'Architects Daughter', cursive;
+}
+
+h1{text-align:center;font-family: 'Architects Daughter', cursive;color: rgb(218, 221, 204);}
+
+
+table{
+color:white; text-align: right;font-size: xx-large;font-family: 'Architects Daughter', cursive;
+}
+
+
+.header1 table th a:hover{
+    text-decoration: underline;
+    color:whitesmoke;font-family: 'Architects Daughter', cursive;
+}
+.header table th a:active{color: aqua;font-family: 'Architects Daughter', cursive;}
+
+
+.header1
+{text-align: center;background-color: rgb(64,0,64); color: whitesmoke;height: 160px;
+width:85%;float: right;font-size: x-large;
+position: relative;font-family: 'Architects Daughter', cursive;}
+
+
+a{color: rgb(221, 218, 34);
+text-decoration:none;font-family: 'Architects Daughter', cursive;
+
+}
+
+
+
+/* CSS FOR THE BUTTONS */
+
+
+ button{
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: rgb(64,0,64);
+    color:rgb(210, 219, 76);
+    cursor:pointer;font-size: large;
+    position: relative;overflow: hidden;font-family: 'Architects Daughter', cursive;
+}
+button:hover{
+    background:  yellow;color:rgb(64,0,64);font-weight: bold;font-size: large;
+}
+
+
+ a:hover{
+color: red;font-family: 'Architects Daughter', cursive;
+}
+
+
+p{padding-top: 50px;}
+
+.mainleft{
+    overflow: auto;font-family: 'Architects Daughter', cursive;
+}
+
+.main{
+    background-color: rgb(229,233,168);color: black;height: 590px;width:100%;clear:both;font-family: 'Architects Daughter', cursive;
+}
+/* img{height: 590px;width: 100%;
+    transition: transform 2s;
+}
+img:hover{
+    transform:scale(0.9);
+    cursor:zoom-in;
+} */
+
+.mainleft{
+background-color: rgb(229,233,168);color: black;height: 550px;width: 100%;
+/* float: left; */
+background-image:url(../images/r4.png);background-repeat: no-repeat;background-size: 1600px 600px;
+color:white;font-size:50px; text-align: center;font-weight: bolder;padding-top: 50px;
+background-attachment:scroll;
+}
+
+
+
+
+
+
+/* .mainright{background-image:url(../images/r131.jpg);background-repeat: no-repeat;background-size: cover;color: rgb(19, 20, 20);height: 590px;width: 40%;float: right;font-size: xx-large;text-align: center;font-family: Georgia, 'Times New Roman', Times, seriff;font-weight: bold;color: white;
+color: yellow;} */
+
+
+
+#footer{
+background-color: rgb(64,0,64);height:120px;width:100%;color: wheat;text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;font-family: 'Architects Daughter', cursive;
+clear:both}
+
+
+/* .main::after{
+    content:" ";
+    clear:both;
+    display: table;
+} */
+
+#footermenu{
+    background-color: rgb(64,0,64);height:180px;width:100%;color: wheat;text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;clear: both;font-family: 'Architects Daughter', cursive;
+}
+
+
+
+
+
+
+
+
+.content{
+    background-color: wheat;color:wheat;height:680px;width:100%;text-align: center;font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;clear: both;background-image: url(../images/b4.jpg);  background-attachment: fixed;background-size: cover;background-repeat: no-repeat;
+}
+
+.content h1{color:white;font-family: 'Architects Daughter', cursive;}
+
+
+.content p{
+    font-weight: bold;color:white;font-size: 20px;font-family: 'Architects Daughter', cursive;
+}
+
+
+
+
+
+/* MENU PAGE CSS */
+
+.mainmenu h1{
+font-size:50px;font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: bold;color:yellow;font-family: 'Architects Daughter', cursive;
+}
+
+.page1{width:100%;height: 1900px;}
+
+
+
+
+#hotel img{height:270px;width: 400px;border-radius: 20px;}
+#hotel img:hover{
+    transform:scale(1.1);
+    cursor:zoom-out;
+} 
+#hotel img{height: 270px;width: 400px;
+    transition: transform 1.2s;
+}
+#chef img{height: 590px;width: 100%;
+    transition: transform 1.2s;
+}
+
+
+
+#chef img{height:270px;width: 400px;border-radius: 20px;}
+#chef img:hover{
+    transform:scale(1.1);
+    cursor:zoom-out;
+} 
+
+#hotel{height:270px;width: 1000px;margin:25px;
+    /* background-image: url(../images/y2.jpg);background-size: contain;border-radius: 20px; */
+    clear:both;}
+
+#chef{height:270px;width: 400px;margin:45px;float:right;
+    /* background-image: url(../images/c2.jpg);background-size: contain;border-radius: 50px;background-repeat: no-repeat; */
+    clear:both;}
+
+
+
+
+a{text-decoration: none;}
+
+
+/* #hotel p{float:right;clear:both;padding-top: 15px;color: aqua;text-align: right;} */
+.dist{height: 270px;width: 400px;float: right;color: white;font-size: 35px;font-family: 'Architects Daughter', cursive;}
+
+
+.dist2{height: 270px;width: 400px;float: left;color: white;font-size: 35px;font-family: 'Architects Daughter', cursive;}
+
+
+.mainmenu{font-size: xx-large;
+width:100%;
+height:1900px;
+background-image: url(../images/m1.jpg);
+
+background-size:contain;
+background-repeat:repeat-y;
+clear: both;
+/* background-color: wheat; */
+}
+
+
+
+
+
+/* 
+RESERVATION PAGE CSS */
+
+.mainmenuRES{font-size: xx-large;background-color: wheat; width:100%;height:820px;background-image: url(../images/b4.jpg);
+    background-size:cover;
+    background-repeat: no-repeat}
+
+.mainmenuRES h1{color: #dfed1b;}
+/* 
+#btn11 {background-color: rgb(245, 222, 179);height: 50px;width: 80px;font-size: medium;} */
+#btn11{background-color: #f3fafa;
+    height: 55px;
+    width: 100px;
+    color: black;
+    border-radius: 31px;}
+
+
+    .que1{background-color:#7ab2c9;height:450px;width: 650px;border-radius: 25px;color:rgb(14, 13, 13);font-size: 25px;
+        text-align: left;
+        padding-left: 15px;
+        padding-top: 20px;font-weight: bolder;background-image: url(../images/c1.jpg);
+        background-size:cover;
+        background-repeat: no-repeat}
+
+
+
+
+/* 
+ABOUT US  PAGE CSS */
+
+
+
+
+
+.mainmenuAB{font-size:28px;background-color: wheat; width:100%;height:880px;background-image: url(../images/b4.jpg);background-repeat: no-repeat;background-size: cover;color: white;clear:both;}
+    
+.mainmenuAB h1{color: #ddf167;}
+
+#hotelab{font-size: x-large;height:270px;width: 400px;margin:25px;float:left;background-image: url(../images/y2.jpg);background-size: contain;border-radius: 20px;clear:both;color: aliceblue;}
+
+#chefb{height:270px;width: 400px;margin:45px;float:right;background-image: url(../images/c2.jpg);background-size: contain;border-radius: 50px;background-repeat: no-repeat;clear:both;}
+
+
+#hotela{font-size:28px;background-color: wheat; width:100%;height:880px;background-image: url(../images/cafe2.jpg);background-repeat: no-repeat;background-size: cover;color: white;clear:both;}
+
+
+
+
+#hotelab img{height: 590px;width: 100%;
+    transition: transform 1.2s;
+}
+#chefb img{height: 590px;width: 100%;
+    transition: transform 1.2s;
+}
+
+
+
+#hotelab img{height:270px;width: 400px;border-radius: 20px;}
+#hotelab img:hover{
+    transform:scale(1.1);
+    cursor:zoom-out;
+} 
+
+
+
+#chefb img{height:270px;width: 400px;border-radius: 20px;}
+#chefb img:hover{
+    transform:scale(1.1);
+    cursor:zoom-out;
+} 
+
+
+
+
+
+/* CONTACT US PAGE CSS */
+
+
+
+
+
+
+
+
+
+
+
+.que{background-color:#7ab2c9;height:480px;width: 650px;border-radius: 25px;color:black;font-size: 25px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 20px;font-weight: bolder;background-image: url(../images/c21.jpg);
+    background-size:cover;
+    background-repeat: no-repeat}
+
+#subtn{background-color: #61e6ec;
+    height: 45px;
+    width: 69px;
+    border-radius: 31px;}
+    
+.mainmenuCO{font-size: xx-large;background-color: wheat; width:100%;height:850px;background-image: url(../images/y2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat}
+
+.mainmenuCO h1{color:yellow;}
